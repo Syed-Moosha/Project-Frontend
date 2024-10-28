@@ -33,7 +33,7 @@ console.log('====================================');
           maxWidth:"350px"
         }}
       >
-        <h1 style={{ fontWeight: "200" }}>Create your google clone account</h1>
+        <h1 style={{ fontWeight: "200" }}>Create your Email Tool account</h1>
         <h3 style={{ fontWeight: "200" }}>Click the Signin Button</h3>
         <Button variant="contained" onClick={googleSignin} >Signin with Google</Button>
       </div>
