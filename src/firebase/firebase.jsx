@@ -8,7 +8,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD40cEN_Z_O2e9dNr1nIERHNA7RqkXw45Q",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "email-tool-e8594.firebaseapp.com",
   projectId: "email-tool-e8594",
   storageBucket: "email-tool-e8594.appspot.com",
